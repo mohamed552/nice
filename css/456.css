@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(../Images/how-technology-is-changing-the-way-we-love-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 650px;
+}
+
+p {
+  position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  top: ;
+  color: rgb(50, 47, 255);
+}
+@media (max-width: 768px) {
+  p {
+    color: yellow;
+  }
+}
